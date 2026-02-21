@@ -1,11 +1,146 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Fabiano Rosa - SAP Architect">
+  <nav class="sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
+    <div class="container flex justify-between items-center py-4">
+      <a href="#hero" class="text-2xl font-bold">Fabiano Rosa</a>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+        <li><a href="#experience" class="hover:text-blue-600">Experience</a></li>
+        <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="container text-center pt-32 pb-48">
+    <img src="/fabiano.jpg" alt="Fabiano Rosa" class="w-48 h-48 rounded-full mx-auto mb-8 object-cover" />
+    <h1 class="text-6xl font-bold mb-4">Fabiano Rosa</h1>
+    <p class="text-2xl text-gray-600 mb-8">SAP Architect & Enterprise Architect | Java Developer | Enschede, NL</p>
+    <button onclick="navigator.clipboard.writeText('fabiano@example.com')" 
+            class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition">
+      Get In Touch
+    </button>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2 class="text-4xl font-bold mb-12">About Me</h2>
+    <p class="text-xl mb-8 leading-relaxed">Senior technical professional with expertise in enterprise architecture (SAP), Java development, and investment analysis. Based in Enschede, Overijssel, NL. Passionate about system design, travel, and stock portfolio management.</p>
+    <p class="text-xl leading-relaxed">Actively manage professional LinkedIn presence and pursue continuous skill development in modern Java and architecture best practices.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container">
+    <h2 class="text-4xl font-bold mb-12">Skills</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Core Expertise</h3>
+        <ul class="space-y-2">
+          <li>• SAP Architecture</li>
+          <li>• Enterprise Solution Design</li>
+          <li>• Java Development</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Tools & Platforms</h3>
+        <ul class="space-y-2">
+          <li>• Visual Studio Code</li>
+          <li>• GitHub / GitHub Pages</li>
+          <li>• LinkedIn</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Interests</h3>
+        <ul class="space-y-2">
+          <li>• Travel Planning</li>
+          <li>• Stock Analysis</li>
+          <li>• Java 25+ Features</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+	<!-- Experience -->
+	<section id="experience" class="container">
+	<h2 class="text-4xl font-bold mb-12">Experience</h2>
+	<div class="space-y-12">
+		<div>
+		<h3 class="text-2xl font-semibold mb-2">SAP Senior Architect</h3>
+		<p class="text-xl text-gray-600 mb-4">Current | Enschede, Overijssel, NL</p>
+		<ul class="space-y-2">
+			<li>• Enterprise architecture and SAP BTP/S/4HANA design</li>
+			<li>• Cloud solutions, integration, and data strategy</li>
+			<li>• Driving AI in SAP for business transformation (order-to-cash, procure-to-pay)</li>
+			<li>• Technical leadership in global SAP implementations</li>
+		</ul>
+		</div>
+		<div>
+		<h3 class="text-2xl font-semibold mb-2">Enterprise Architect / Senior Software Engineer</h3>
+		<p class="text-xl text-gray-600 mb-4">Previous Role | Europe</p>
+		<ul class="space-y-2">
+			<li>• SAP HANA, S/4HANA migrations and custom Java development</li>
+			<li>• Solution architecture for scalable enterprise systems</li>
+			<li>• Portfolio management and investment analysis tools</li>
+		</ul>
+		</div>
+		<div>
+		<h3 class="text-2xl font-semibold mb-2">Java Developer / SAP Consultant</h3>
+		<p class="text-xl text-gray-600 mb-4">Early Career</p>
+		<ul class="space-y-2">
+			<li>• Java ecosystem development (modern features up to Java 25)</li>
+			<li>• Static site generation and documentation pipelines</li>
+			<li>• LinkedIn profile optimization and professional networking</li>
+		</ul>
+		</div>
+	</div>
+	</section>
+
+	<!-- Projects -->
+	<section id="projects" class="container">
+	<h2 class="text-4xl font-bold mb-12">Projects & Open Source</h2>
+	<div class="grid md:grid-cols-2 gap-8">
+		<div class="border border-gray-200 p-8 rounded-xl hover:shadow-lg transition">
+		<h3 class="text-2xl font-semibold mb-4">Structurizr Architecture Diagrams</h3>
+		<p>Automated static site generation for software architecture diagrams using Structurizr CLI. Deployed to GitHub Pages with custom subdirectory hosting (/site).</p>
+		<a href="https://github.com/yourusername/structurizr-repo" class="text-blue-600 hover:underline mt-4 inline-block">View on GitHub →</a>
+		</div>
+		<div class="border border-gray-200 p-8 rounded-xl hover:shadow-lg transition">
+		<h3 class="text-2xl font-semibold mb-4">SAP BTP AI Integration PoC</h3>
+		<p>Proof-of-concept for AI in SAP processes (e.g., predictive maintenance, finance automation) using BTP, S/4HANA, and Java services.</p>
+		<a href="https://linkedin.com/posts/yourprofile" class="text-blue-600 hover:underline mt-4 inline-block">LinkedIn Post →</a>
+		</div>
+		<div class="border border-gray-200 p-8 rounded-xl hover:shadow-lg transition md:col-span-2">
+		<h3 class="text-2xl font-semibold mb-4">Personal Portfolio & Documentation Site</h3>
+		<p>This very site! Built with Astro, Tailwind, and GitHub Pages—showcasing enterprise architecture docs and travel/investment side projects.</p>
+		<a href="https://github.com/yourusername/fabiano-rosa-astro" class="text-blue-600 hover:underline mt-4 inline-block">Source Code →</a>
+		</div>
+		<!-- Add more as 1-col cards -->
+	</div>
+	</section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="container text-center">
+    <h2 class="text-4xl font-bold mb-12">Get In Touch</h2>
+    <p class="text-xl mb-8">fabiano@example.com | Enschede, Overijssel, NL</p>
+    <div class="flex justify-center space-x-6 text-2xl">
+      <a href="https://linkedin.com/in/fabiano-rosa">LinkedIn</a>
+      <a href="https://github.com/yourusername">GitHub</a>
+    </div>
+  </section>
 </Layout>
+
+<script>
+  // Smooth scroll for nav links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
