@@ -1,7 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-body { @apply bg-white text-gray-900 antialiased font-sans; }
-section { @apply py-24; }
+@reference;
+
+body { @apply bg-white text-gray-900 antialiased font-sans leading-relaxed; }
 .container { @apply max-w-4xl mx-auto px-6; }
+section { @apply py-24; }

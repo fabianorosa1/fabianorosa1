@@ -1,15 +1,17 @@
 // @ts-check
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite'; // v4 Vite plugin
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind()],
   site: 'https://fabianorosa.me',
-  base: '/fabianorosa1',
+  base: '/',  // ← Clean root base (no '.')
   output: 'static',
   trailingSlash: 'always',
   build: {
     assets: 'assets'
+  },
+  vite: {
+    plugins: [tailwindcss()]
   }
 });
