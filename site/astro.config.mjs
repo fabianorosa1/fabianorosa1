@@ -5,7 +5,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://fabianorosa.me',
-  base: '/',  // ← Clean root base (no '.')
+  base: '/fabianorosa1',  
   output: 'static',
   trailingSlash: 'always',
   build: {
