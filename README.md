@@ -1,104 +1,74 @@
 # 👋 Hi, I'm Fabiano Rosa
 
-**Senior SAP Architect & Software Engineer**  
+**Senior Enterprise Architect, SAP Architect, and Technology Leader at Shell**  
 📍 The Hague, Netherlands  
-🔗 [LinkedIn](https://www.linkedin.com/in/fabianorosa/) • 🐦 [@fabiano_rosa1](https://twitter.com/fabiano_rosa1)
+🔗 [LinkedIn](https://www.linkedin.com/in/fabianorosa/) • [GitHub](https://github.com/fabianorosa1)
 
 ---
 
 ## 🚀 About Me
 
-I’m a **senior technology architect with 20+ years of experience** in software engineering, enterprise architecture, and SAP ecosystems.  
-My work focuses on building **scalable, secure, and cloud-native enterprise solutions**, with a strong emphasis on **SAP Business Technology Platform (BTP)**, clean-core principles, and modern integration patterns.
+I’m an enterprise architect and software engineering leader with **25+ years of experience** designing and modernizing business-critical platforms.
 
-On GitHub, I share **reference implementations, demos, and architectural experiments** around SAP, cloud platforms, DevOps, and software craftsmanship.
+My work is centered on **SAP Business Technology Platform (BTP)**, cloud-native architecture, secure integration, and pragmatic modernization strategies that help teams move faster without losing architectural discipline.
 
----
-
-## 🧠 Core Expertise
-
-### 🟦 SAP & Enterprise Architecture
-- SAP Business Technology Platform (BTP)
-- Side-by-side extensibility & Clean Core architecture
-- SAP S/4HANA integration & extensibility
-- SAP UI5 / Fiori application development
-- SAP Cloud Integration, API Management
-- Security & Identity (XSUAA, OAuth2, IAM)
-
-### ⚙️ Software Engineering
-- Java & Spring Boot (OData, REST APIs)
-- Cloud-native application design
-- API design & secure authentication
-- Integration patterns & event-driven architectures
-
-### 🔁 DevOps & Tooling
-- Git & GitHub (advanced workflows)
-- GitHub Actions (CI/CD automation)
-- Maven, cloud deployments, automation pipelines
+On GitHub, I share hands-on repositories around SAP, integration, security, developer tooling, and architecture experiments.
 
 ---
 
-## 📌 Featured Projects
+## 🧠 Focus Areas
 
-Here are a few repositories that reflect my technical interests and background:
-
-- **🔐 cloud-security-xsuaa-integration**  
-  SAP BTP authentication & authorization examples using XSUAA
-
-- **📊 cloud-employeeslistapp-springboot-odatav2**  
-  Spring Boot OData V2 service for SAP integration scenarios
-
-- **🧩 cloud-sdk-team-calendar**  
-  SAP Cloud SDK demo showcasing enterprise extension patterns
-
-- **🗄️ hana-shine-xsa**  
-  SAP HANA XS Advanced learning & deployment examples
-
-- **⛓️ BlockchainDemo**  
-  Swift-based demo exploring blockchain fundamentals
-
-- **♠️ PokerGames-iOS**  
-  Classic iOS poker app built with Objective-C
+- **Enterprise architecture:** platform strategy, modernization, and scalable solution design
+- **SAP ecosystem:** SAP BTP, clean core, side-by-side extensibility, SAP S/4HANA integration
+- **Engineering:** Java, Spring Boot, APIs, integration patterns, and event-driven systems
+- **Platform security:** XSUAA, OAuth2, identity, and secure application design
+- **Delivery excellence:** GitHub, CI/CD automation, cloud deployments, and developer enablement
 
 ---
 
-## 🛠️ Tech Stack
+## 📌 Selected Repositories
+
+- [**structurizr-github-actions-sample**](https://github.com/fabianorosa1/structurizr-github-actions-sample) — Structurizr workflow sample using GitHub Actions
+- [**quarkus-sap-btp-cf**](https://github.com/fabianorosa1/quarkus-sap-btp-cf) — Quarkus sample for SAP BTP Cloud Foundry
+- [**spring-boot-security-scp**](https://github.com/fabianorosa1/spring-boot-security-scp) — Spring Boot security sample for SAP Cloud Platform
+- [**cloud-employeeslistapp-springboot-odatav2**](https://github.com/fabianorosa1/cloud-employeeslistapp-springboot-odatav2) — Spring Boot OData V2 service for SAP integration scenarios
+- [**BTP-Integration-Suite**](https://github.com/fabianorosa1/BTP-Integration-Suite) — Integration Suite examples for SAP BTP
+- [**sapcloudsdk-nestjs-xsuaa**](https://github.com/fabianorosa1/sapcloudsdk-nestjs-xsuaa) — SAP Cloud SDK and NestJS example with XSUAA
+
+---
+
+## 🛠️ Technology Snapshot
 
 | Area | Technologies |
-|-----|-------------|
-| **Cloud** | SAP BTP, Cloud Foundry |
-| **SAP** | SAPUI5, Fiori, OData, XSUAA |
-| **Backend** | Java, Spring Boot, REST |
-| **Frontend / Mobile** | Swift, Objective-C, JavaScript |
-| **DevOps** | GitHub Actions, CI/CD, Git |
+| --- | --- |
+| **Architecture & Cloud** | Enterprise architecture, SAP BTP, Cloud Foundry, modernization |
+| **SAP** | Clean Core, SAP S/4HANA extensibility, Integration Suite, API Management, XSUAA |
+| **Backend** | Java, Spring Boot, REST, OData, TypeScript, NestJS |
+| **Automation** | Git, GitHub Actions, CI/CD, cloud delivery pipelines |
+| **Additional stacks** | JavaScript, Groovy, Python, Swift, Objective-C, PowerShell |
 
 ---
 
 ## 📊 GitHub at a Glance
 
-- 📦 260+ public repositories  
-- ⭐ 900+ stars across projects  
-- 🧪 Mix of enterprise demos, PoCs, and learning repositories  
+- **272 public repositories**
+- Projects spanning **Java, JavaScript/TypeScript, Groovy, Python, Swift, Objective-C, and PowerShell**
+- A portfolio focused on **SAP BTP, integration, cloud security, automation, and applied architecture**
 
 ---
 
-## 💬 Philosophy
+## 💬 What I Care About
 
-I strongly believe in:
-- **Clean Core & extensibility by design**
-- **Security by default**
-- **Automation everywhere**
-- **Pragmatic architecture over theoretical perfection**
+- **Architecture that is pragmatic, not theoretical**
+- **Security by design**
+- **Automation as a force multiplier**
+- **Clean, extensible enterprise platforms**
 
-I enjoy mentoring, sharing knowledge, and helping teams modernize complex enterprise landscapes.
-
----
-
-## 📫 Let’s Connect
-
-Feel free to reach out if you want to collaborate, discuss architecture, or exchange ideas:
-
-- 🔗 [LinkedIn](https://www.linkedin.com/in/fabianorosa/)
-- 🐦 [Twitter / X](https://twitter.com/fabiano_rosa1)
+I enjoy sharing knowledge, mentoring teams, and helping organizations modernize complex landscapes with practical engineering discipline.
 
 ---
+
+## 📫 Connect
+
+- [LinkedIn](https://www.linkedin.com/in/fabianorosa/)
+- [GitHub](https://github.com/fabianorosa1)
