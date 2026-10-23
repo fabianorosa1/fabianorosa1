@@ -52,6 +52,9 @@ My current focus is applying **AI to enterprise transformation**: identifying pr
 
 Here are a few repositories that reflect my current technical interests and background:
 
+- **🤖 [btp-change-intelligence-quarkus](https://github.com/fabianorosa1/btp-change-intelligence-quarkus)**
+  A Java 25 and Quarkus application that turns SAP BTP release changes into actionable architecture insight. It combines deterministic triage against an enterprise service catalogue with AI-assisted impact assessments, guarded recommendations, and human architecture review. Includes a Vite dashboard built with SAP UI5 Web Components for reviewing change impact, priority, relevance, confidence, and architecture attention.
+
 - **🧭 btp-solution-diagrams**
   SAP BTP solution diagram repository aligned with SAP architecture guidance and design standards
 
