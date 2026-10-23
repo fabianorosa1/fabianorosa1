@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Fabiano Rosa
 
-**Senior Enterprise Architect & Software Engineer**<br />
+**Senior Enterprise Architect & Technology Leader | SAP and Java Architect**<br />
 📍 The Hague, Netherlands  
 🔗 [LinkedIn](https://www.linkedin.com/in/fabianorosa/) • 🐦 [@fabiano_rosa1](https://twitter.com/fabiano_rosa1)
 
@@ -8,17 +8,23 @@
 
 ## 🚀 About Me
 
-I’m a **senior enterprise architect and technology leader with 25+ years of experience** in software engineering, enterprise architecture, SAP ecosystems, and cloud transformation.<br />
-I currently work at **Shell**, helping shape **scalable, secure, and cloud-native enterprise solutions** with a strong emphasis on **SAP Business Technology Platform (BTP)**, clean-core principles, and modern integration patterns.
+I’m a **Senior Enterprise Architect and Technology Leader with 25+ years of experience**, specializing in enterprise-scale SAP platforms, Java engineering, and cloud transformation. At **Shell**, I help shape architecture and platform strategy for secure, scalable solutions, with a focus on **SAP Business Technology Platform (BTP)**, clean-core principles, and modern integration.
 
-My recent training includes **NOVA IMS Information Management School**, complemented by applied research on **PaaS migration and cloud-native software development**. On GitHub, I share **reference implementations, demos, and architectural experiments** around SAP, cloud platforms, DevOps, and software craftsmanship.
+My current focus is applying **AI to enterprise transformation**: identifying practical business use cases, and designing for integration, security, governance, and responsible adoption across SAP and cloud landscapes. I have recently completed AI-focused certifications and continue to build on that learning. My background also includes study at **NOVA IMS Information Management School** and applied research on **PaaS migration and cloud-native software development**. On GitHub, I share reference implementations, demos, and architectural experiments.
 
 ---
 
 ## 🧠 Core Expertise
 
+### 🤖 AI & Enterprise Transformation
+- AI strategy and architecture for enterprise environments
+- AI-enabled business transformation and use-case discovery
+- Integrating AI capabilities into SAP and cloud landscapes
+- Secure, governed, and responsible AI adoption
+- Recent AI-focused certifications and continuous learning
+
 ### 🟦 SAP & Enterprise Architecture
-- Enterprise architecture & platform strategy
+- Enterprise architecture, platform strategy & technology leadership
 - SAP Business Technology Platform (BTP)
 - Side-by-side extensibility & Clean Core architecture
 - SAP S/4HANA integration & extensibility
@@ -26,12 +32,13 @@ My recent training includes **NOVA IMS Information Management School**, compleme
 - SAP Cloud Integration, API Management
 - Security & Identity (XSUAA, OAuth2, IAM)
 
-### ⚙️ Software Engineering
+### ☕ Java & Software Architecture
+- Java architecture and enterprise application design
 - Java & Spring Boot (OData, REST APIs)
 - Cloud-native application design & modernization
-- API design & secure authentication
+- API design, secure authentication & integration patterns
 - Integration patterns & event-driven architectures
-- Architecture documentation & diagram-as-code
+- Architecture documentation, solution diagrams & diagram-as-code
 
 ### 🔁 DevOps & Tooling
 - Git & GitHub (advanced workflows)
@@ -69,10 +76,11 @@ Here are a few repositories that reflect my current technical interests and back
 
 | Area | Technologies |
 |-----|-------------|
+| **AI** | Enterprise AI architecture, AI-enabled transformation, responsible adoption |
 | **Cloud** | SAP BTP, Cloud Foundry, cloud-native architecture |
 | **SAP** | SAPUI5, Fiori, S/4HANA extensibility, OData, XSUAA |
-| **Backend** | Java, Spring Boot, REST, integration services |
-| **Architecture** | Structurizr, solution diagrams, Clean Core patterns |
+| **Backend** | Java architecture, Spring Boot, REST, integration services |
+| **Architecture** | Enterprise solution design, Structurizr, Clean Core patterns |
 | **Frontend / Mobile** | JavaScript, Swift, Objective-C |
 | **DevOps** | GitHub Actions, CI/CD, Git, Maven |
 
@@ -89,6 +97,7 @@ Here are a few repositories that reflect my current technical interests and back
 ## 💬 Philosophy
 
 I strongly believe in:
+- **AI adoption grounded in real business needs**
 - **Clean Core & extensibility by design**
 - **Security by default**
 - **Automation everywhere**

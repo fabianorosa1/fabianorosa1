@@ -1,14 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
-<Layout title="Fabiano Rosa - SAP Senior Architect">
-  <nav class="sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
-    <div class="container flex justify-between items-center py-4">
+<Layout
+  title="Fabiano Rosa | Senior Enterprise Architect, SAP & Java"
+  description="Fabiano Rosa is a Senior Enterprise Architect and Technology Leader with 25+ years of experience in SAP, Java, cloud architecture, and AI-enabled enterprise transformation."
+>
+  <nav class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-md">
+    <div class="container flex flex-wrap items-center justify-between gap-4 py-4">
       <a href="#hero" class="text-2xl font-bold">Fabiano Rosa</a>
-      <ul class="flex space-x-6">
+      <ul class="flex flex-wrap gap-x-6 gap-y-2">
         <li><a href="#about" class="hover:text-blue-600">About</a></li>
-        <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+        <li><a href="#expertise" class="hover:text-blue-600">Expertise</a></li>
         <li><a href="#experience" class="hover:text-blue-600">Experience</a></li>
         <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
         <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
@@ -16,127 +21,195 @@ import Layout from '../layouts/Layout.astro';
     </div>
   </nav>
 
-  <!-- Hero -->
-  <section id="hero" class="container text-center pt-32 pb-48">
-    <img src="/fabiano.jpg" alt="Fabiano Rosa" class="w-48 h-48 rounded-full mx-auto mb-8 object-cover" />
-    <h1 class="text-6xl font-bold mb-4">Fabiano Rosa</h1>
-    <p class="text-2xl text-gray-600 mb-8">SAP Architect & Enterprise Architect | Java Developer | The Hague, NL</p>
-    <button onclick="navigator.clipboard.writeText('fabianorosa1@gmail.com')" 
-            class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition">
-      Get In Touch
-    </button>
-  </section>
+  <main>
+    <section id="hero" class="container text-center">
+      <img src="/fabiano.jpg" alt="Fabiano Rosa" class="mx-auto mb-8 h-48 w-48 rounded-full object-cover" />
+      <h1 class="mb-4 text-5xl font-bold md:text-6xl">Fabiano Rosa</h1>
+      <p class="mb-8 text-xl text-gray-600 md:text-2xl">
+        Senior Enterprise Architect &amp; Technology Leader<br />
+        SAP BTP | Java Architecture | AI-enabled Transformation
+      </p>
+      <p class="mb-8 text-lg text-gray-600">The Hague, Netherlands · 25+ years in technology</p>
+      <a
+        href="mailto:fabianorosa1@gmail.com"
+        class="inline-block rounded-lg bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
+      >
+        Get in touch
+      </a>
+    </section>
 
-  <!-- About -->
-  <section id="about" class="container">
-    <h2 class="text-4xl font-bold mb-12">About Me</h2>
-    <p class="text-xl mb-8 leading-relaxed">Senior technical professional with expertise in enterprise architecture (SAP), Java development, and investment analysis. Based in The Hague, NL. Passionate about system design, travel, and stock portfolio management.</p>
-    <p class="text-xl leading-relaxed">Actively manage professional LinkedIn presence and pursue continuous skill development in modern Java and architecture best practices.</p>
-  </section>
+    <section id="about" class="container">
+      <h2 class="mb-8 text-4xl font-bold">About Me</h2>
+      <p class="mb-6 text-xl leading-relaxed">
+        I’m a Senior Enterprise Architect and Technology Leader with more than 25 years of experience
+        designing and delivering enterprise software and platforms. At Shell, I help shape scalable,
+        secure technology solutions, with a focus on SAP architecture, SAP Business Technology Platform
+        (BTP), Java, and cloud transformation.
+      </p>
+      <p class="text-xl leading-relaxed">
+        My current focus is bringing AI into enterprise transformation: connecting promising business
+        use cases with sound architecture, SAP and cloud integration, security, and governance. I have
+        recently completed AI-focused certifications and continue to deepen my knowledge as the field
+        evolves. My background also includes applied research on PaaS migration and cloud-native software
+        development.
+      </p>
+    </section>
 
-  <!-- Skills -->
-  <section id="skills" class="container">
-    <h2 class="text-4xl font-bold mb-12">Skills</h2>
-    <div class="grid md:grid-cols-3 gap-8">
-      <div>
-        <h3 class="text-2xl font-semibold mb-4">Core Expertise</h3>
-        <ul class="space-y-2">
-          <li>• SAP Architecture</li>
-          <li>• Enterprise Solution Design</li>
-          <li>• Java Development</li>
-        </ul>
+    <section id="expertise" class="container">
+      <h2 class="mb-12 text-4xl font-bold">Expertise</h2>
+      <div class="grid gap-8 md:grid-cols-2">
+        <div>
+          <h3 class="mb-4 text-2xl font-semibold">AI &amp; Enterprise Transformation</h3>
+          <ul class="space-y-2">
+            <li>AI architecture and adoption in enterprise environments</li>
+            <li>AI-enabled business transformation and use-case discovery</li>
+            <li>Integration of AI capabilities across SAP and cloud landscapes</li>
+            <li>Security, governance, and responsible AI adoption</li>
+            <li>Recent AI-focused certifications and continuous learning</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-4 text-2xl font-semibold">SAP &amp; Enterprise Architecture</h3>
+          <ul class="space-y-2">
+            <li>Enterprise architecture, platform strategy, and technical leadership</li>
+            <li>SAP BTP, SAP S/4HANA, and Clean Core architecture</li>
+            <li>Cloud integration, APIs, and side-by-side extensibility</li>
+            <li>SAPUI5, Fiori, OData, and identity (XSUAA, OAuth2)</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-4 text-2xl font-semibold">Java &amp; Software Architecture</h3>
+          <ul class="space-y-2">
+            <li>Java architecture and enterprise application design</li>
+            <li>Java, Spring Boot, REST APIs, and OData services</li>
+            <li>Cloud-native modernization and distributed systems</li>
+            <li>Event-driven integration and architecture documentation</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-4 text-2xl font-semibold">Cloud &amp; Delivery</h3>
+          <ul class="space-y-2">
+            <li>SAP BTP and Cloud Foundry</li>
+            <li>CI/CD, GitHub Actions, Maven, and automation</li>
+            <li>Structurizr and architecture diagrams as code</li>
+            <li>Secure, maintainable solution design</li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <h3 class="text-2xl font-semibold mb-4">Tools & Platforms</h3>
-        <ul class="space-y-2">
-          <li>• Visual Studio Code</li>
-          <li>• GitHub / GitHub Pages</li>
-          <li>• LinkedIn</li>
-        </ul>
+    </section>
+
+    <section id="experience" class="container">
+      <h2 class="mb-8 text-4xl font-bold">Experience</h2>
+      <div class="space-y-8">
+        <div>
+          <h3 class="mb-2 text-2xl font-semibold">Senior Enterprise Architect &amp; Technology Leader</h3>
+          <p class="mb-4 text-lg text-gray-600">Shell · The Hague, Netherlands</p>
+          <p class="leading-relaxed">
+            Providing architectural leadership for enterprise platforms and transformation, with a
+            strong focus on SAP BTP strategy, scalable cloud solutions, integration, and the evolving
+            role of AI in business processes.
+          </p>
+        </div>
+        <div>
+          <h3 class="mb-2 text-2xl font-semibold">Enterprise Architecture &amp; Software Engineering</h3>
+          <p class="mb-4 text-lg text-gray-600">25+ years across international teams and technology environments</p>
+          <p class="leading-relaxed">
+            Built a career spanning enterprise architecture, SAP landscapes, and Java software
+            engineering. Work includes platform and solution design, cloud and PaaS modernization,
+            enterprise integration, and technical leadership.
+          </p>
+        </div>
       </div>
-      <div>
-        <h3 class="text-2xl font-semibold mb-4">Interests</h3>
-        <ul class="space-y-2">
-          <li>• Travel Planning</li>
-          <li>• Stock Analysis</li>
-          <li>• Java 25+ Features</li>
-        </ul>
+    </section>
+
+    <section id="projects" class="container">
+      <h2 class="mb-12 text-4xl font-bold">Projects &amp; Open Source</h2>
+      <div class="grid gap-8 md:grid-cols-2">
+        <article class="rounded-xl border border-gray-200 p-8 transition hover:shadow-lg md:col-span-2">
+          <div class="flex flex-wrap items-start justify-between gap-4">
+            <div>
+              <p class="mb-2 font-semibold uppercase tracking-wide text-blue-700">Featured · AI + SAP BTP</p>
+              <h3 class="mb-4 text-2xl font-semibold">SAP BTP Change Intelligence Agent</h3>
+            </div>
+            <a
+              href="https://github.com/fabianorosa1/btp-change-intelligence-quarkus"
+              class="text-blue-600 hover:underline"
+            >
+              View project on GitHub →
+            </a>
+          </div>
+          <p class="mb-6 leading-relaxed">
+            A Java 25 and Quarkus application that turns SAP BTP release changes into actionable
+            architecture insight. It combines deterministic triage against an enterprise service
+            catalogue with AI-assisted impact assessments, then routes the results to human architecture
+            review. The dashboard brings assessments, pending decisions, service catalogue, and operations
+            into one place.
+          </p>
+          <p class="mb-8 leading-relaxed">
+            Built with Quarkus LangChain4j and a Vite dashboard using SAP UI5 Web Components, the solution
+            keeps enterprise relevance grounded in catalogue evidence while applying guardrails to AI
+            recommendations. It demonstrates a human-in-the-loop approach to AI for SAP platform change
+            management.
+          </p>
+          <div class="grid gap-6 lg:grid-cols-2">
+            <figure>
+              <img
+                src={`${baseUrl}btp-change-intelligence-overview.png`}
+                alt="SAP BTP Change Intelligence dashboard overview with assessment and architecture attention metrics"
+                class="h-auto w-full rounded-lg border border-gray-200"
+                loading="lazy"
+              />
+              <figcaption class="mt-3 text-sm text-gray-600">
+                Dashboard overview — portfolio impact, priority, and architecture attention.
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src={`${baseUrl}btp-change-intelligence-assessments.png`}
+                alt="SAP BTP Change Intelligence latest assessments view with impact, priority, relevance, attention, and confidence"
+                class="h-auto w-full rounded-lg border border-gray-200"
+                loading="lazy"
+              />
+              <figcaption class="mt-3 text-sm text-gray-600">
+                Latest assessments — filter and review changes by impact, priority, relevance, and attention.
+              </figcaption>
+            </figure>
+          </div>
+        </article>
+        <article class="rounded-xl border border-gray-200 p-8 transition hover:shadow-lg">
+          <h3 class="mb-4 text-2xl font-semibold">Structurizr Architecture Diagrams</h3>
+          <p>
+            A sample workflow for generating software architecture diagrams with Structurizr CLI and
+            deploying them to GitHub Pages.
+          </p>
+          <a
+            href="https://github.com/fabianorosa1/structurizr-github-actions-sample"
+            class="mt-4 inline-block text-blue-600 hover:underline"
+          >
+            View on GitHub →
+          </a>
+        </article>
+        <article class="rounded-xl border border-gray-200 p-8 transition hover:shadow-lg">
+          <h3 class="mb-4 text-2xl font-semibold">Quarkus on SAP BTP Cloud Foundry</h3>
+          <p>A proof of concept exploring Quarkus deployment in the SAP BTP Cloud Foundry environment.</p>
+          <a
+            href="https://github.com/fabianorosa1/quarkus-sap-btp-cf"
+            class="mt-4 inline-block text-blue-600 hover:underline"
+          >
+            View on GitHub →
+          </a>
+        </article>
       </div>
-    </div>
-  </section>
+    </section>
 
-	<!-- Experience -->
-	<section id="experience" class="container">
-	<h2 class="text-4xl font-bold mb-12">Experience</h2>
-	<div class="space-y-12">
-		<div>
-		<h3 class="text-2xl font-semibold mb-2">SAP Senior Architect</h3>
-		<p class="text-xl text-gray-600 mb-4">Current | The Hague, NL</p>
-		<ul class="space-y-2">
-			<li>• Enterprise architecture and SAP BTP/S/4HANA design</li>
-			<li>• Cloud solutions, integration, and data strategy</li>
-			<li>• Driving AI in SAP for business transformation (order-to-cash, procure-to-pay)</li>
-			<li>• Technical leadership in global SAP implementations</li>
-		</ul>
-		</div>
-		<div>
-		<h3 class="text-2xl font-semibold mb-2">Enterprise Architect / Senior Software Engineer</h3>
-		<p class="text-xl text-gray-600 mb-4">Previous Role | Europe</p>
-		<ul class="space-y-2">
-			<li>• SAP HANA, S/4HANA migrations and custom Java development</li>
-			<li>• Solution architecture for scalable enterprise systems</li>
-			<li>• Portfolio management and investment analysis tools</li>
-		</ul>
-		</div>
-		<div>
-		<h3 class="text-2xl font-semibold mb-2">Java Developer / SAP Consultant</h3>
-		<p class="text-xl text-gray-600 mb-4">Early Career</p>
-		<ul class="space-y-2">
-			<li>• Java ecosystem development (modern features up to Java 25)</li>
-			<li>• Static site generation and documentation pipelines</li>
-			<li>• LinkedIn profile optimization and professional networking</li>
-		</ul>
-		</div>
-	</div>
-	</section>
-
-	<!-- Projects -->
-	<section id="projects" class="container">
-	<h2 class="text-4xl font-bold mb-12">Projects & Open Source</h2>
-	<div class="grid md:grid-cols-2 gap-8">
-		<div class="border border-gray-200 p-8 rounded-xl hover:shadow-lg transition">
-		<h3 class="text-2xl font-semibold mb-4">Structurizr Architecture Diagrams</h3>
-		<p>Automated static site generation for software architecture diagrams using Structurizr CLI. Deployed to GitHub Pages with custom subdirectory hosting (/site).</p>
-		<a href="https://github.com/fabianorosa1/structurizr-github-actions-sample" class="text-blue-600 hover:underline mt-4 inline-block">View on GitHub →</a>
-		</div>
-		<div class="border border-gray-200 p-8 rounded-xl hover:shadow-lg transition">
-		<h3 class="text-2xl font-semibold mb-4">Quarkus and SAP BTP Cloud Foundry PoC</h3>
-		<p>Proof-of-concept for Quarkus in SAP BTP Cloud Foundry</p>
-		<a href="https://github.com/fabianorosa1/quarkus-sap-btp-cf" class="text-blue-600 hover:underline mt-4 inline-block">View on GitHub →</a>
-		</div>
-		
-		<!-- Add more as 1-col cards -->
-	</div>
-	</section>
-
-
-  <!-- Contact -->
-  <section id="contact" class="container text-center">
-    <h2 class="text-4xl font-bold mb-12">Get In Touch</h2>
-    <p class="text-xl mb-8">fabianorosa1@gmail.com | The Hague, NL</p>
-    <div class="flex justify-center space-x-6 text-2xl">
-      <a href="https://linkedin.com/in/fabianorosa">LinkedIn</a>
-      <a href="https://github.com/fabianorosa1">GitHub</a>
-    </div>
-  </section>
+    <section id="contact" class="container text-center">
+      <h2 class="mb-8 text-4xl font-bold">Let’s Connect</h2>
+      <p class="mb-8 text-xl">The Hague, Netherlands</p>
+      <div class="flex justify-center gap-6 text-lg">
+        <a href="https://www.linkedin.com/in/fabianorosa/" class="text-blue-600 hover:underline">LinkedIn</a>
+        <a href="https://github.com/fabianorosa1" class="text-blue-600 hover:underline">GitHub</a>
+        <a href="mailto:fabianorosa1@gmail.com" class="text-blue-600 hover:underline">Email</a>
+      </div>
+    </section>
+  </main>
 </Layout>
-
-<script>
-  // Smooth scroll for nav links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-    });
-  });
-</script>
